@@ -1,0 +1,63 @@
+Blog
+
+- post တင်လို့ရမယ်
+- post ပြင်လို့ရမယ် 
+- post ဖျက်လို့ရမယ်
+- post ဖတ်လို့ရမယ်
+- comment ပေးလို့ရမယ်
+- comment ပြင်လို့ရ
+- comment ဖတ်လို့ရ
+- comment ဖျက်လို့ရ
+- user တွေ post ကို ဖတ်လို့ရ
+- user တွေ post ကို ပြင်လို့ရ
+- user တွေ post ကို ဖျက်လို့ရ 
+- user တွေ post ကို တင်လို့ရ
+- category တွေအလိုက် ကြည့်လို့ရမယ်
+
+သိမ်းဖို့လိုသော ဒေတာများ
+- posts
+- comments
+- categories
+- users
+- comment_reply
+
+Database Tables
+posts
+- id
+- title
+- image
+- description
+- category_id
+- user_id
+- created_at
+
+
+Comments
+- id
+- user_name
+- body 
+- commented_date
+- post_id
+
+Comment_reply
+- id
+-comment_id
+- user_name
+- body
+- reply_date
+
+Categories
+- id
+- name
+- category_dated
+- image
+
+Users
+- id
+- name
+- email
+- password
+- profile
+- created_at 
+- role
+- 
