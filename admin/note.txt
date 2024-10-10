@@ -1,0 +1,14 @@
+PDO - PHP Data Object
+
+
+1. MySQLi Procedural
+2. MySQLi Object-Oriented
+3. PDO - PHP Data Object   
+    a. Postgress,
+    b. SQLite,
+    c. Oracle,
+    d. MS SQL Server...
+
+PDO - PHP Data Object
+- Secure
+- Fast
